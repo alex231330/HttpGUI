@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" minHeight="550.0" minWidth="450.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button fx:id="btn" mnemonicParsing="false" onMouseClicked="#buttonClk" text="HTTP GET Request" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+         <GridPane.margin>
+            <Insets bottom="10.0" top="20.0" />
+         </GridPane.margin></Button>
+      <TextField fx:id="urlf" prefWidth="400.0" text="192.168.31.127" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <TextField fx:id="term" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+      <TextArea fx:id="resp" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Label text="URL:" GridPane.rowIndex="3" />
+      <Label text="Request:" GridPane.rowIndex="4" />
+      <Label text="Response:" GridPane.rowIndex="5" />
+      <TextArea fx:id="dbg" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Label text="Debug INFO:" GridPane.rowIndex="6" />
+   </children>
+</GridPane>
