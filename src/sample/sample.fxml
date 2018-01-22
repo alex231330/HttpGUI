@@ -30,7 +30,7 @@
          <GridPane.margin>
             <Insets bottom="10.0" top="20.0" />
          </GridPane.margin></Button>
-      <TextField fx:id="urlf" prefWidth="400.0" text="192.168.31.127" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <TextField fx:id="urlf" prefWidth="400.0" text="192.168.31.46" GridPane.columnIndex="1" GridPane.rowIndex="3" />
       <TextField fx:id="term" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
 
       <TextArea fx:id="resp" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
